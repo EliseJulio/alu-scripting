@@ -2,7 +2,6 @@
 """API"""
 import requests
 
-
 def top_ten(subreddit):
     """API"""
     reddit_url = "https://www.reddit.com/r/{}/hot.json".format(subreddit)
